@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,QAAQ;EACN,YAAY,ECHD,OAAO",
+"sources": ["style.scss","Helpers/colors.scss"],
+"names": [],
+"file": "style.css"
+}

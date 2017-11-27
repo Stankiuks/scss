@@ -1,0 +1,32 @@
+@import "Helpers/colors";
+@import "Helpers/borders";
+
+@mixin border ($color, $width) {
+  border-color: $color;
+  border-width: $width;
+  border-style: solid;
+}
+
+.container{
+  .success {
+    @include border ($color-green, $border-width-10)
+    @extend .box-size;
+    background-color: $color-green;
+    .text{
+      color: white;
+      font-size: 24px;
+    }
+     }
+
+  .danger{
+    border-color: $color-red;
+    border-width: $border-width-10;
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+    .text{
+      color: beige;
+      font-size: 24px;
+    }
+  }
+}

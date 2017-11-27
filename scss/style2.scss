@@ -1,0 +1,18 @@
+@import "Helpers/colors";
+@import "Helpers/borders";
+
+.block{
+  width: 240px;
+  height: 130px;
+  box-sizing: border-box;
+  border-color: $color-blue;
+  border-width: $border-width-20;
+  border-style: dashed;
+  background-color: gray;
+  color: #ffffff;
+  font-size: 30px;
+  font-style: italic;
+  overflow: hidden;
+  justify-content: center;
+  align-content: center;
+}
